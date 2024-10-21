@@ -1,0 +1,51 @@
+.adDetailsDiv {
+    background-color: white;
+    padding: 15px;
+}
+
+.adDescription {
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.hrAdDescription {
+    border-color: #ffa41b;
+}
+
+.adDescriptionTag {
+    list-style-type: none;
+    background-color: #f5f5f5;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.adDescription > p:first-child {
+    font-weight: bold;
+}
+
+.adTagList {
+    display: flex;
+    gap : 15px
+}
+
+.headerAdDetails {
+    text-align: center;
+}
+
+.adDescriptionButtonList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin : 15px
+}
+
+.tags {
+    background-color: white;
+    padding : 5px; 
+    border-radius: 5px;
+    border : 1px solid #ffa41b;
+}

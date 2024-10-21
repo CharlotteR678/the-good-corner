@@ -1,0 +1,15 @@
+.formPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.checkboxDiv {
+    display: flex;
+    margin: 15px;
+    gap: 25px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    flex-wrap: wrap;
+}
